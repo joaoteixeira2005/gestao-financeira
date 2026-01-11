@@ -1,0 +1,18 @@
+/* Adiciona isto ao teu styles.css */
+.card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Estilo para valores negativos vs positivos */
+.valor-entrada { color: #10b981; font-weight: 700; }
+.valor-saida { color: #ef4444; font-weight: 700; }
+
+/* Botões interativos */
+.btn-navy {
+    transition: filter 0.2s;
+}
+.btn-navy:active {
+    transform: scale(0.95);
+}
